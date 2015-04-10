@@ -1,0 +1,12 @@
+.DS_Store
+*.cywrk.*
+*.cyprj.*
+*.cycdx
+*.cyfit
+*.rpt
+*.uvopt
+*.uvproj
+*_timing.html
+codegentemp\
+CortexM0\
+Generated_Source\
