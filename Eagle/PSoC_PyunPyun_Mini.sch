@@ -13444,17 +13444,17 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </net>
 <net name="IDAC8" class="0">
 <segment>
-<pinref part="JP3" gate="A" pin="9"/>
-<wire x1="101.6" y1="111.76" x2="114.3" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="111.76" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="114.3" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
-<label x="106.68" y="111.76" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="66.04" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <junction x="30.48" y="68.58"/>
+<pinref part="JP3" gate="A" pin="8"/>
+<wire x1="101.6" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
+<label x="106.68" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -13692,9 +13692,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </net>
 <net name="IDAC7" class="0">
 <segment>
-<pinref part="JP3" gate="A" pin="8"/>
-<wire x1="101.6" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
-<label x="106.68" y="114.3" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="9"/>
+<wire x1="101.6" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
+<label x="106.68" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
