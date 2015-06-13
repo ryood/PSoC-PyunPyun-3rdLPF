@@ -41,8 +41,8 @@
 #define WAVE_TABLE_LEN	(1024)
 
 /* Wave & LFO Frequency Limit */
-#define WAVE_FREQ_MAX   ((double)8000.0f)
-#define LFO_FREQ_MAX    ((double)20.f)
+#define WAVE_FREQ_MAX   ((double)1000.0f)
+#define LFO_FREQ_MAX    ((double)10.f)
 
 /***************************************
 * マクロ
