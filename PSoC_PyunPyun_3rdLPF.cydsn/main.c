@@ -37,7 +37,7 @@
 #define ADC_HIGH_LIMIT  ((int16)0x7FF)
 
 /* Wave Tables */
-#define WAVE_SHAPE_N	(5)
+#define WAVE_SHAPE_N	(6)
 #define WAVE_TABLE_LEN	(1024)
 
 /* Wave & LFO Frequency Limit */
@@ -96,7 +96,7 @@ uint8 prevSwLfoForm = 0u;
 
 /* 表示用 */
 const char *waveShapeStr[] = {
-	"SIN", "TRI", "SQR", "SW1", "SW2"
+	"KIK9", "SIN", "TRI", "SQR", "SW1", "SW2"
 };                
                 
 /*======================================================
@@ -296,11 +296,12 @@ int main()
 	waveShape = 0;
 	lfoShape = 0;
     
-    waveTables[0] = waveTableSine;
-    waveTables[1] = waveTableTriangle;
-    waveTables[2] = waveTableSqure;
-    waveTables[3] = waveTableSawtoothDown;
-    waveTables[4] = waveTableSawtoothUp;
+    waveTables[0] = waveTable909Kick;
+    waveTables[1] = waveTableSine;
+    waveTables[2] = waveTableTriangle;
+    waveTables[3] = waveTableSqure;
+    waveTables[4] = waveTableSawtoothDown;
+    waveTables[5] = waveTableSawtoothUp;
     
     // コンポーネントを初期化
     SamplingTimer_Start(); 
