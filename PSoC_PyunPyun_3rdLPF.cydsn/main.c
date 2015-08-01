@@ -96,7 +96,7 @@ uint8 prevSwLfoForm = 0u;
 
 /* 表示用 */
 const char *waveShapeStr[] = {
-	"SIN", "TRI", "SQR", "SW1", "SW2", "KIK", "CNG}" 
+	"SIN", "TRI", "SQR", "SW1", "SW2", "KIK", "STP" 
 };                
                 
 /*======================================================
@@ -302,7 +302,7 @@ int main()
     waveTables[3] = waveTableSawtoothDown;
     waveTables[4] = waveTableSawtoothUp;
 	waveTables[5] = waveTable909Kick;
-	waveTables[6] = waveTable808Conga;
+	waveTables[6] = waveTableStep;
     
     // コンポーネントを初期化
     SamplingTimer_Start(); 
